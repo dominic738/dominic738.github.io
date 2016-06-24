@@ -1,0 +1,107 @@
+body {
+    background-color:#ff6600;
+}
+
+h1, h3 {
+    background-color: #00ffff;
+}
+
+h2 {
+    background-color: #00e600;
+}
+
+h4 {
+    background-color:#ff6600;
+    text-align:center;
+}
+
+.about {
+    background-color:red;
+}
+
+.head2 {
+    background-color:yellow;
+}
+
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    text-align:center;
+}
+
+h2{    
+    font-family: 'Quantico', sans-serif;
+    text-align:center;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+    
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+custom-img{
+    right=60px
+}
+
+.navbar ul {
+    position:absolute;
+    left:0px;
+    top:35px;
+    width:100%;
+
+    list-style-type:none;
+}
+
+.navbar li a {
+    background-color:#d9d9d9;
+    
+    text-decoration:none;
+    
+    text-align:center;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+    font-size:14px;
+    float:left;
+    
+    width:10%;
+    
+    margin-right:10px;
+    
+    padding-left:4px;
+    padding-right:4px;
+    
+    border-radius:6px 6px 0px 0px;
+    
+}
+
+
+
+
+.navbar li a:selected {
+    background:00e600;
+}
+
+
+.navbar li a:hover {
+     background-color:  #00e600;\
+     margin-top:4px;
+     padding-bottom:10px;
+     margin-top:-4px;
+}
+
+.navbar li a:active {
+    background-color:#00e600;
+}
+
+
+ul.active {
+    border-color: white;
+    border-left-color: black; 
+    border-top-color: black;
+    color: white; 
+    background-color: #adadad;
+}
+}
